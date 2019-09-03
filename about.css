@@ -1,0 +1,61 @@
+body {
+  background-color: #ffffff;
+}
+
+.about-box {
+  padding: 0;
+  padding-top: 180px;
+}
+
+.title {
+  color: #000;
+  padding: 30px 20px;
+}
+.title p {
+  padding-top: 18px;
+}
+.title a {
+  color: #ff4949;
+  text-decoration: none;
+}
+
+.skill,
+.work {
+  padding: 41px 0 21px 20px;
+}
+.skill ul,
+.work ul {
+  list-style: none;
+  padding-top: 8px;
+}
+
+.skill {
+}
+.work ul {
+}
+
+.work-list li p span {
+  color: #b949ffa1;
+}
+
+/* ------------grid ------------- */
+.about-box {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 0.5fr 1fr 0.5fr;
+  grid-gap: 10px;
+}
+
+.title {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.skill {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.work {
+  grid-column: 4;
+  grid-row: 2;
+}

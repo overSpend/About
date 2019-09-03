@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.root {
+  height: 100%;
+}
+
+/* ---- disable scrolling ---- */
+/* 
+body,
+html {
+  height: 100%;
+}
+
+body {
+  overflow: hidden;
+}
+
+#root {
+  height: 100%;
+  overflow: hidden;
+} */

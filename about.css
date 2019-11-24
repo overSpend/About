@@ -4,7 +4,8 @@ body {
 
 .about-box {
   padding: 0;
-  padding-top: 180px;
+  padding-top: 25vh;
+	padding-bottom: 25vh;
 }
 
 .title {

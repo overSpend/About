@@ -61,7 +61,6 @@ body {
 }
 
 /* ------------ Media Query ------------- */
-
 @media(max-width:1102px) {
 	.about-box {
 		display: block;

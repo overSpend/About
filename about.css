@@ -59,3 +59,18 @@ body {
   grid-column: 3;
   grid-row: 2;
 }
+
+/* ------------ Media Query ------------- */
+
+@media(max-width:1102px) {
+	.about-box {
+		display: block;
+		padding: 12.5vh 0 20vh 0;
+	}
+	.about-box div {
+		padding: 5vh 0 7vh 0;
+	}
+	.title, .skill, .work  {
+		text-align: center;
+	}
+}

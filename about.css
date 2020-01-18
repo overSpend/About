@@ -1,75 +1,74 @@
 body {
-  background-color: #ffffff;
+    background-color: #ffffff;
 }
 
 .about-box {
-  padding: 0;
-	padding: 25vh 21vw 40vh 22vw;
+    padding: 0;
+    padding: 25vh 21vw 40vh 22vw;
+    text-decoration: none;
 }
 
 .title {
-  color: #000;
-  padding: 30px 20px;
+    color: #000;
+    padding: 30px 20px;
 }
 .title p {
-  padding-top: 18px;
+    padding-top: 18px;
 }
 .title a {
-  color: #ff4949;
-  text-decoration: none;
+    color: #ff4949;
+    text-decoration: inherit;
 }
 
 .skill,
 .work {
-  padding: 41px 0 21px 20px;
+    padding: 41px 0 21px 20px;
 }
 .skill ul,
 .work ul {
-  list-style: none;
-  padding-top: 8px;
+    list-style: none;
+    padding-top: 8px;
 }
 
-.skill {
-}
-.work ul {
-}
-
-.work-list li p span {
-  color: #b949ffa1;
+.work-list li p a {
+    color: #ff4949;
+    text-decoration: inherit;
 }
 
 /* ------------grid ------------- */
 .about-box {
-  display: grid;
-  grid-template-columns: 1fr 0.5fr 1fr;
-  grid-gap: 10px;
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 1fr;
+    grid-gap: 10px;
 }
 
 .title {
-  grid-column: 1;
-  grid-row: 1;
+    grid-column: 1;
+    grid-row: 1;
 }
 
 .skill {
-  grid-column: 1;
-  grid-row: 2;
+    grid-column: 1;
+    grid-row: 2;
 }
 
 .work {
-  grid-column: 3;
-  grid-row: 2;
+    grid-column: 3;
+    grid-row: 2;
 }
 
 /* ------------ Media Query ------------- */
-@media(max-width:1102px) {
-	.about-box {
-		display: block;
-		padding: 12.5vh 0 20vh 0;
-	}
-	.about-box div {
-		padding: 5vh 0 7vh 0;
-	}
-	.title, .skill, .work  {
-		text-align: center;
-	}
+@media (max-width: 1102px) {
+    .about-box {
+        display: block;
+        padding: 12.5vh 0 20vh 0;
+    }
+    .about-box div {
+        padding: 5vh 0 7vh 0;
+    }
+    .title,
+    .skill,
+    .work {
+        text-align: center;
+    }
 }
